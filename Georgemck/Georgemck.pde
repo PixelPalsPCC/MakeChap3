@@ -26,4 +26,6 @@ void draw() {
   }
 }
 
-
+void mouseClicked(){
+ println(mouseX,mouseY);
+}
