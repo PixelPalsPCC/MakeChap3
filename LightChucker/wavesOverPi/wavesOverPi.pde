@@ -1,7 +1,19 @@
+ /**
+  Assignment: MakeChap3
+  Student: Ben Glickstein
+  Pasadena City College, Fall 2024
+  Course Name: DMA60 Creative Coding
+  Prof. George McKinney
+  Project Description: This program draws a crashing wave along a ground line. 
+  Last Modified: September 11, 2024
+  */
+
+
+
 float waveAngle = 0;
 float waveSpeed = 0.03; //animation speed
-float waveHeight = 250;
-float waveWidth = 500;
+float waveHeight = 200;
+float waveWidth = 300;
 float groundLevel;
 float waveProgress = 0;
 
@@ -26,15 +38,15 @@ void draw() {
   translate(-100,0);
 
   // Animate the wave curling inwards and crashing towards the ground
-  for (int i = 0; i < 6; i++) {
-    float angle = waveAngle + i * 0.05;
-    float scale = 1 - i * 0.25;
+  for (int i = 0; i < 4; i++) { // second number determins how many lines are drawn
+    float angle = waveAngle + i * 0.25; //wave angle control
+    float scale = 1 - i * 0.25; //controls how close wave lines are. larger is further away
     drawWave(angle, waveWidth * scale, waveHeight * scale, i, waveProgress);
   }
   
   popMatrix();//restores previous animation before wave was moved(prevents crash)
 
-  waveProgress += 0.01; //wave draw speed
+  waveProgress += 0.005; //wave draw speed
   if (waveProgress > PI) {
     waveProgress = 0;
   }
