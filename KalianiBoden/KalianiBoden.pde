@@ -1,3 +1,14 @@
+ /**
+  Assignment: MakeChap3
+  Student: Kaliani Boden
+  Pasadena City College, Fall 2024
+  Course Name: DMA60 Creative Coding
+  Prof. George McKinney
+  Project Description: This program draws a grid of colored circles which continously changes colors.
+  Last Modified: September 11, 2024
+  */
+
+
 size(1000, 1000);
 background(250,220,200);
 
