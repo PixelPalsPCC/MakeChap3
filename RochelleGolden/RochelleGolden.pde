@@ -1,3 +1,13 @@
+ /**
+  Assignment: Shapes
+  Student: Rochelle Golden Nithsdale
+  Pasadena City College, Fall 2024
+  Course Name: DMA60 Creative Coding
+  Prof. George McKinney
+  Project Description: This program is the circles excercise
+  */
+
+
 size(480, 120);
 noStroke();
 background(0, 26, 51); // Dark blue color
