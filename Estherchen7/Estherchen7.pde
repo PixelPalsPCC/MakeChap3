@@ -1,6 +1,6 @@
 /**
   Assignment: MakeChap3
-  Student: George McKinney
+  Student: Esther Chen
   Pasadena City College, Fall 2024
   Course Name: DMA60 Creative Coding
   Prof. George McKinney
