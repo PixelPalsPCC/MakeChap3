@@ -26,16 +26,16 @@ void setup() {
 }
 
 void draw() {
-  background(255); 
+  background(211, 211, 211); 
   translate(width / 2, groundLevel);  // Set ground level as the baseline for the wave
 
   // Draw the groundlevel
-  stroke(0);
+  stroke(135, 206, 235);
   line(-width / 2, 0, width / 2, 0);  // Ground line
   
   //Controls the starting direction of the wave horizonally. pushMatrix makes it independent of the groundlevel.
   pushMatrix();
-  translate(-100,0);
+  translate(-200,0);
 
   // Animate the wave curling inwards and crashing towards the ground
   for (int i = 0; i < 4; i++) { // second number determins how many lines are drawn
