@@ -1,3 +1,13 @@
+/**
+  Assignment: MakeChap3
+  Student: Kelly Gee
+  Pasadena City College, Fall 2024
+  Course Name: DMA60 Creative Coding
+  Prof. George McKinney
+  Project Description: This program makes a transparent blue arrow rotate around the mouse cursor.
+  Last Modified: September 11, 2024
+  */
+
 float angle = 0.0;
 void setup() {
   size(1000, 1000);
